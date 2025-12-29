@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data (Very large)
+data/
+!data/categories.txt
+# Keep categories.txt if it exists, but ignore large npz
+*.npz
+*.npy
+
+# Models (Large binary files, use git-lfs if needed, otherwise ignore)
+models/
+
+# OS specific
+.DS_Store
+.idea/
+.vscode/
+
+# Examples (Keep these for the UI)
+!examples/
